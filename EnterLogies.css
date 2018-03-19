@@ -1,0 +1,641 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+#side-bar{
+	float: left;
+	width: 280px;
+	/*width: 260px;*/
+	
+	color: #ffffff;
+	display: block;
+	top: 0;
+	height: 100%;
+	z-index: 999999;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 18px;
+	background: #333;
+
+	box-shadow: 0 0 5px 5px #222 inset;
+}
+#headermodify{
+	background-color: green;
+	width: 280px;
+	height: 70px;
+	position: fixed;
+
+}
+.menu-button {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: url(menu.gif) no-repeat;
+    overflow: hidden;
+    width: 34px;
+    height: 31px;
+    text-indent: -9999px;
+}
+
+.UserSection{
+	background-color: inherit;
+	width: inherit;
+	margin-top: 80px;
+
+	
+	height: 120px;
+	clear: both;
+
+}
+.UserSectionBody{
+	height: 100px;
+
+	width: inherit;
+
+}
+
+.User{         /*customzing the user class floating and margin*/
+	float: left;
+	padding:2px;
+	height: 120px;
+	margin-top: 20px;
+} 
+
+#userimg{                /*customzing the each user element i.e icon dp , user details and progress*/
+	margin-left: 25px;
+	width: 80px;
+	background-image: url("Images/afterLogin.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+
+	border-radius: 4px;
+	height: 80px;
+	cursor: pointer;
+
+}
+
+#userDetail{
+	width: auto;
+	border: 0.5px solid transparent;
+	height: auto;
+	margin-top: 15px;
+	
+	margin-left: 15px;
+	cursor: pointer;	
+	font-size:16px;
+	
+
+	word-break: break-all;
+}
+#userDetail span{ 
+	text-align: center;
+}
+
+.ToggleBody{
+	float: left;
+	margin-left: 20px;
+	color: #ffffff;
+}
+.modal_triggers{
+	margin-top: 35px;
+	width: 60px;
+	height: 40px;
+	margin-left: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	border:none;
+
+	text-align: center;
+}
+.modal_triggers a{
+	font-weight: bold;
+	font-family: "Lucida bright";
+	color: #000000;
+
+	text-decoration: none;
+}
+
+#userIcon{
+	margin-left: 30px;
+	width: 80px;
+	background-image: url(Images/b4login.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	border-radius: 4px;
+	height: 80px;
+	cursor: -webkit-grab;
+
+}
+#SignOutDiv{
+	margin-left: 210px;		
+	margin-top: 6px;		
+	cursor: pointer;
+	font-size: 16px;		
+	background-color:green;
+	width: auto;
+
+
+}
+#SignOutBtn{
+	height:auto;
+	width: 70px;
+	cursor: pointer;
+	padding: 10px 8px;
+	margin-right: 2px;
+	background-color: #1c1c1c;
+	border: none;
+	color: white;
+	box-shadow: 0 1.5px 3px rgba(255,255,190,0.4);
+	border-radius:4px;
+}
+#SignOutDiv :hover{
+	background-color: red;
+	color: white;
+
+}
+#SignOutBtn a{
+	font-family: "Cambria";
+	text-align: center;
+	color:white ;
+	text-decoration: none;
+
+}
+
+
+.panels ul {
+	display: block;
+	margin: 0 0 1px;
+	padding: 0;
+	border-top: 1px solid #1a1a1a;
+	border-bottom: 1px solid #4d4d4d;
+}
+.panels ul li {
+	display: block;
+	margin: 0;
+	line-height: 58px;
+	border-top: 1px solid #4d4d4d;
+	border-bottom: 1px solid #1a1a1a;
+}
+.panels ul li:hover, .panels ul li.active, .panels ul li.panels-class-active {
+	border-top: 0;
+	line-height: 59px;
+}
+.panels ul li:hover > a,
+.panels ul li.active > a,
+.panels ul li.panels-class-active > a{
+	box-shadow: 0 0 15px 3px #222 inset;
+}
+.panels ul li a i {
+	padding: 15px;
+}
+.panels ul li a{
+	padding: 0 15px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.side-bar_Format{
+
+	margin-left: 1px;
+	margin-right: 1px;
+
+
+}
+.side-bar_Format h2 ,h3{
+	margin-left:30px;
+	width: auto;
+	padding: 10px;
+	font-size: 22px;
+
+}
+
+#AdsSection{
+	background-color: grey;
+	width: inherit;
+	height: auto;
+	font-size: 16px;
+}
+.PremiumAlign{
+	margin: 0 30px;
+}
+#PremiumAlignDescri{
+	margin-bottom: 10px;
+}
+#AdsSection ul label{
+	font-weight: bolder;
+	
+}
+#AdsSection ul li{
+	list-style-type: ;
+	list-style-position: outside;
+	padding: 2px 0;
+}
+#GOPremium{
+	text-decoration: none;
+
+}
+.classhidden{
+	list-style-type: none;
+	margin: 10px 0px;     /*   I did this so that there could be space around go premium label*/
+}
+#GOPremium label{
+	cursor: pointer;
+	background-color: green;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-left: 40px;
+	color: #ffffff;
+}
+#SocialNetworks{
+	background-color: inherit;
+	width: inherit;
+	height: auto;
+	clear: both;
+
+}
+
+
+#Social ul li{
+	padding: 8px;
+	float: left;
+	margin-top: 15px;
+	margin-left:10px;
+	list-style-type: none;
+
+}
+#Social ul li:first-child{
+	margin-left: 40px;
+}
+
+#Social ul li a img{
+	text-decoration: none;
+	font-size: 18px;
+
+}
+#About_Us{
+	background-color: inherit;
+	width: inherit;
+	height: 550px;
+	clear: both;
+
+}
+#About_Us_content{
+	margin-left:20px;
+	width: auto;
+	padding: 10px;
+	font-size: 16px;
+	margin-right: 10px;
+
+}
+#News_items ul li a{
+	list-style-type: none;
+	text-decoration: none;
+	color:#ffffff; 	
+	font-size: 16px; 
+	margin-left:30px;
+
+
+}
+#News_items ul li{
+	
+	padding: 5px;
+
+}
+#News_items ul li :hover{
+	color: #dfbcad;
+
+	background-color: #ff5400;
+}
+/*Main Section Of the page*/
+#main{
+	float: left;
+	margin-left: 280px;
+	color: #333;
+
+	display: block;
+	top: 0;
+	height: 100%;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 18px; 
+	position: absolute;
+
+	/*box-shadow: 0 0 5px 5px #222 inset;*/
+}
+#Top_Nav{
+	background-color:white;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	clear: right;
+
+}
+#GameSection{
+
+	background-color: beige;
+	
+	height :430px;
+	clear: right;
+	background-image: url("Home.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+
+
+}
+.container{
+	overflow-x: hidden;
+	width: inherit;
+	overflow-y: hidden;
+}
+
+#FeaturedGms{
+	/*margin:1px;*/ /*This is separating the upper border thats y...*/
+	/*border-top: 1px solid black;
+	*/
+}
+#Game_Description{
+	background-color:grey;
+	/*width: inherit;*/
+	height:100px;
+	clear: right;
+
+}
+#Game_DescriptionBody{
+	width: 85%;
+	color: #ffffff;
+	float: left;
+	font-family:"Cambria Math";
+	font-size: 18px;
+	
+	margin-left:20px;
+
+}
+#SeeNextBtn{
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+#SeeNextBtn button{
+	padding: 15px;
+	border-radius: 4px;
+}
+#Featured_Games{
+
+	height: auto;
+
+}
+#Section1{
+	float: left;   /*Section One i didnt specify width*/
+
+	margin-bottom: 30px;
+	
+	margin-top: 20px;
+	height: auto;
+	margin-left: 10px;
+}
+#Section1 ul li{
+	list-style-type: none;
+
+}
+#Game1Space,#Game2Space,#Game3Space{
+	clear: both;
+
+}
+.Game123{
+	height: 100px;
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	margin-right: 10px;
+	margin-left: 50px;
+	float: left;
+	border-radius: 10px;
+	
+}
+/*.Game123 .Game456 img{
+	border-radius: 8px;
+
+	}*/
+	.Game456{
+		/*border: 1px solid black;*/
+		height: 150px;
+		width: 150px;
+		/*background-color: green;*/
+		margin-top: 10px;
+		margin-bottom:10px;
+		margin-right: 10px;
+		float: left;
+		border-radius: 10px;
+	}
+	.GameDescri{
+		float: left;
+		margin-left: 10px;
+		width: 250px;
+		height: 150px;
+		/*border: 1px solid black;*/
+		border-radius: 4px;
+		font-family: 'Cambria Math', cursive;
+		text-align: center;
+		text-align: left;
+
+	}
+	.GameDescri h4,.GameDescri2 h4{
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+	.GameDescri2{
+		float: left;
+		margin-left: 10px;
+		width: 250px;
+		height: 150px;
+		/*border: 1px solid black;*/
+		border-radius: 4px;
+		font-family: 'Cambria Math', cursive;
+		text-align: center;
+		text-align: left;
+	}
+	#Section2{
+		float: left;
+		clear: right;
+		/*Section Two i didnt specify width*/
+
+		margin-bottom: 30px;
+		margin-top: 20px;
+		height:auto;
+	}
+	#Section2 ul li{
+		list-style-type: none;
+
+	}
+	.AlignVideos{
+		margin-left: 30px;
+		margin-bottom: 20px;
+		margin-right: 15px;
+	}
+	.AlignVideos iframe{
+		border-radius: 8px;
+		cursor: pointer;
+	}
+	#VideoDescri{
+		height: 615px;
+		background-color: lightgrey;
+		width: 450px;
+		border-radius: 10px 2px;
+		margin-left: 4px;
+	}
+	#News{
+		/*width: inherit;*/
+		clear: right;
+		height: auto;
+		margin-left: 20px;
+
+	}
+	/* The dot bullet indicator*/
+	.dot{
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		border-radius: 50px;
+		
+		background-color: #717171;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+
+
+	}
+	.dot:hover{
+
+		background-color: rgba(0,0,0,0.8);
+	}
+	.main_Headers_1{
+		width: 250px;	
+		border-bottom: 2px solid #000;
+		margin-left: 30px;
+		padding: 15px;
+
+		display: inline-block;
+	}
+	#main_Headers_2{
+		width:70px;	
+		border-bottom: 3px solid #000;
+		margin-left: 25px;
+		padding: 5px;
+	}
+	.main_Headers_Align{
+		margin-left: 5px;
+
+	}
+	#News_Content{
+
+		/*border-top: 2px solid black;*/
+
+
+	}
+	.item button a{
+		text-decoration: none;
+		padding: 5px;
+		color: #000;
+		font-size: 14px;
+
+	}
+	#News1 button {
+		background-color: #555555;
+	}
+	#News1 button  a{
+		color: #ffffff;
+	}
+	.item button {
+		padding: 3px ;
+		border-width: 1px;
+		border-radius: 2px;
+		background-color: lightgrey;
+		cursor: pointer;
+	}
+	#News1{
+		float: left;
+		width: 450px;
+		margin-bottom: 20px;
+		margin-left: 40px;
+		margin-top: 30px;
+
+	}
+	#News2{
+		float: left;
+		clear: right;
+		width: 450px;
+		margin-left: 35px;
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+	.read_more_state{
+		display: none;
+	}
+	.read_more_target{
+		opacity: 0;
+		max-height: 0;
+		font-size: 0;
+		transition:  1s ease;
+	}
+	.read_more_state:checked ~ .read_more_wrap ~.read_more_target {
+		opacity: 1;
+		font-size: inherit;
+		max-height: 999em;
+
+	}
+	.read_more_state ~ .read_more_trigger:before{
+		content: "Read More";
+
+	}
+	.read_more_state:checked ~ .read_more_trigger:before{
+		content: "Show less";
+	}
+	.read_more_trigger{
+		cursor: pointer;
+		display: inline-block;
+		padding: 0.5em;
+		color: #666;
+		font-size: .9em;
+		line-height: 1;
+		border:1px solid #ddd;
+		border-radius: 0.25em;
+	}
+	#News3{
+		float: left;
+		width: 450px;
+		margin-bottom: 60px;
+		margin-left: 40px;
+
+	}
+	#News4{
+		float: left;
+		clear: right;
+		width: 450px;
+		margin-left: 35px;
+		margin-bottom: 60px;
+
+	}
+	#Last_Part{
+		clear: both;
+		/*width: inherit;*/
+		height: auto;
+		background-color: beige;
+
+	}
+	#Last_Part_Content{
+		text-align: center;
+		font-family: "Cambria Math";
+		font-weight: bold;
+		margin-top: 30px;
+		position: static;
+
+	}
